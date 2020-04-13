@@ -1,58 +1,73 @@
-#banner {
-	background: rgb(1,44,105);
-	background: linear-gradient(150deg, rgba(1,44,105,1) 27%, rgba(1,106,161,1) 63%, rgba(0,212,255,1) 100%);
-	padding:50px;
-}
+/* Using SASS variable, Nesting and Inheritance - Reffer to .scss file */
+/* Using SASS Variable */
 #home-content {
-	background: #012c69;
-	padding:40px 16px;	
-}
+  background: #012c69;
+  padding: 40px 16px; }
+
+/* Using SASS Nesting and Inheritance */
+#home-content .homevision, #home-content .homemission {
+  padding: 40px;
+  margin: 16px;
+  border-radius: 16px; }
+
 #home-profile {
-	padding:40px;
-}
-.homevision, .homemission {
-	padding:40px;
-	margin:16px;
-	border-radius: 16px;
-}
+  padding: 40px; }
+
+#banner {
+  background: #012c69;
+  background: linear-gradient(150deg, #012c69 27%, #016aa1 63%, #00d4ff 100%);
+  padding: 40px; }
+
 .homemission {
-	background: rgb(251,157,219);
-	background: linear-gradient(345deg, rgba(251,157,219,1) 0%, rgba(136,0,255,1) 100%);
-}
+  background: #fb9ddb;
+  background: linear-gradient(345deg, #fb9ddb 0%, #8800ff 100%); }
+
 .homevision {
-	background: rgb(63,94,251);
-	background: linear-gradient(150deg, rgba(63,94,251,1) 0%, rgba(178,90,255,1) 100%);
-}
+  background: #3f5efb;
+  background: linear-gradient(150deg, #3f5efb 0%, #b25aff 100%); }
+
 #home-profile h3 {
-	color:#fff;
-	padding-bottom: 16px;
-}
+  color: #ffffff;
+  padding-bottom: 16px; }
+
 #home-profile p {
-	color:#fff;
-}
+  color: #ffffff; }
+
 h1 {
-	color:#fff;
-}
+  color: #ffffff; }
+
 h3 {
-	color:#a4d0ff;
-}
+  color: #a4d0ff; }
+
 p {
-	color:#f5deb3;
-}
-a {
-    color: #343a40 !important;
-}
+  color: #f5deb3; }
+
+section a {
+  color: #343a40 !important; }
+
+/* Using SASS Nesting */
 .nav {
-	display: flex;
-}
-.nav-pills .nav-link {	
-    border-radius: 0.10rem;
-    margin: 8px 0px;
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff !important;
-    background: linear-gradient(150deg, rgba(1,106,161,1) 0%, rgba(0,212,255,1) 100%);
-}
+  display: flex; }
+  .nav a {
+    color: #ffffff; }
+
+table {
+  background-color: #ffffff; }
+  table th {
+    background: linear-gradient(150deg, #012c69 27%, #016aa1 63%, #00d4ff 100%);
+    color: #ffffff; }
+  table th {
+    color: #00000; }
+
+.nav-pills .nav-link {
+  border-radius: 0.10rem;
+  margin: 8px 0px; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #ffffff !important;
+  background: linear-gradient(150deg, #016aa1 0%, #00d4ff 100%); }
+
 footer.container {
-    padding: 0px;
-}
+  padding: 0px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,99 @@
+/* Using SASS variable, Nesting and Inheritance - Reffer to .scss file */
+
+/* Using SASS Variable */
+$padding: 40px;
+$colorwhite: #ffffff ;
+$bannercolor: linear-gradient(150deg, rgba(1,44,105,1) 27%, rgba(1,106,161,1) 63%, rgba(0,212,255,1) 100%);
+
+%colpadding {
+	background: #012c69;
+	padding:$padding 16px;
+}
+
+/* Using SASS Nesting and Inheritance */
+#home-content {
+	@extend %colpadding;
+	.homevision, .homemission {
+		padding:$padding;
+		margin:16px;
+		border-radius: 16px;
+	}
+}
+
+#home-profile {
+	padding:$padding;
+}
+
+#banner {
+	background: rgb(1,44,105);
+	background: $bannercolor;
+	padding:40px;
+}
+
+.homemission {
+	background: rgb(251,157,219);
+	background: linear-gradient(345deg, rgba(251,157,219,1) 0%, rgba(136,0,255,1) 100%);
+}
+
+.homevision {
+	background: rgb(63,94,251);
+	background: linear-gradient(150deg, rgba(63,94,251,1) 0%, rgba(178,90,255,1) 100%);
+}
+
+#home-profile h3 {
+	color:$colorwhite;
+	padding-bottom: 16px;
+}
+
+#home-profile p {
+	color:$colorwhite;
+}
+
+h1 {
+	color:$colorwhite;
+}
+
+h3 {
+	color:#a4d0ff;
+}
+
+p {
+	color:#f5deb3;
+}
+
+section a {
+    color: #343a40 !important;
+}
+
+/* Using SASS Nesting */
+.nav {
+	display: flex;
+	a {
+	    color: $colorwhite ;
+	}
+}
+table {
+	background-color:$colorwhite;
+	th {
+		background: $bannercolor;
+		color:$colorwhite;
+	}
+	th {
+		color:#00000;
+	}
+}
+
+.nav-pills .nav-link {	
+    border-radius: 0.10rem;
+    margin: 8px 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: $colorwhite !important;
+    background: linear-gradient(150deg, rgba(1,106,161,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+footer.container {
+    padding: 0px;
+}
+
