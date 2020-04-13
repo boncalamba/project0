@@ -1,0 +1,58 @@
+#banner {
+	background: rgb(1,44,105);
+	background: linear-gradient(150deg, rgba(1,44,105,1) 27%, rgba(1,106,161,1) 63%, rgba(0,212,255,1) 100%);
+	padding:50px;
+}
+#home-content {
+	background: #012c69;
+	padding:40px 16px;	
+}
+#home-profile {
+	padding:40px;
+}
+.homevision, .homemission {
+	padding:40px;
+	margin:16px;
+	border-radius: 16px;
+}
+.homemission {
+	background: rgb(251,157,219);
+	background: linear-gradient(345deg, rgba(251,157,219,1) 0%, rgba(136,0,255,1) 100%);
+}
+.homevision {
+	background: rgb(63,94,251);
+	background: linear-gradient(150deg, rgba(63,94,251,1) 0%, rgba(178,90,255,1) 100%);
+}
+#home-profile h3 {
+	color:#fff;
+	padding-bottom: 16px;
+}
+#home-profile p {
+	color:#fff;
+}
+h1 {
+	color:#fff;
+}
+h3 {
+	color:#a4d0ff;
+}
+p {
+	color:#f5deb3;
+}
+a {
+    color: #343a40 !important;
+}
+.nav {
+	display: flex;
+}
+.nav-pills .nav-link {	
+    border-radius: 0.10rem;
+    margin: 8px 0px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background: linear-gradient(150deg, rgba(1,106,161,1) 0%, rgba(0,212,255,1) 100%);
+}
+footer.container {
+    padding: 0px;
+}
