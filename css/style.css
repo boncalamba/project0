@@ -5,7 +5,11 @@
   padding: 40px 16px; }
 
 /* Using SASS Nesting and Inheritance */
+<<<<<<< HEAD
 #home-content .homevision, #home-content .homemission {
+=======
+#home-content .homevision, #home-content .homemission, #home-content .blooddonor {
+>>>>>>> 78e5bcb... updated files again
   padding: 40px;
   margin: 16px;
   border-radius: 16px; }
@@ -22,7 +26,11 @@
   background: #fb9ddb;
   background: linear-gradient(345deg, #fb9ddb 0%, #8800ff 100%); }
 
+<<<<<<< HEAD
 .homevision {
+=======
+.homevision, .blooddonor {
+>>>>>>> 78e5bcb... updated files again
   background: #3f5efb;
   background: linear-gradient(150deg, #3f5efb 0%, #b25aff 100%); }
 
@@ -42,6 +50,21 @@ h3 {
 p {
   color: #f5deb3; }
 
+<<<<<<< HEAD
+=======
+#home-lists > ul {
+  list-style-type: square;
+  color: white; }
+
+#home-contact {
+  color: white; }
+
+#home-contact button {
+  margin-top: 24px;
+  color: white;
+  border: 2px solid white; }
+
+>>>>>>> 78e5bcb... updated files again
 section a {
   color: #343a40 !important; }
 
@@ -52,7 +75,12 @@ section a {
     color: #ffffff; }
 
 table {
+<<<<<<< HEAD
   background-color: #ffffff; }
+=======
+  background-color: #ffffff;
+  margin: auto; }
+>>>>>>> 78e5bcb... updated files again
   table th {
     background: linear-gradient(150deg, #012c69 27%, #016aa1 63%, #00d4ff 100%);
     color: #ffffff; }
@@ -70,4 +98,26 @@ table {
 footer.container {
   padding: 0px; }
 
+<<<<<<< HEAD
+=======
+/* Using SASS Nesting and @media query */
+@media screen and (max-width: 900px) {
+  .homevision, .homemission, .blooddonor {
+    border: 5px solid white; }
+    .homevision p:hover, .homemission p:hover, .blooddonor p:hover {
+      background: blue;
+      color: yellow; } }
+@media screen and (max-width: 600px) {
+  .homevision, .homemission, .blooddonor {
+    background: black;
+    color: #4ba2ff;
+    border: 5px dashed white; }
+    .homevision h4:after, .homemission h4:after, .blooddonor h4:after {
+      content: "\2605";
+      position: absolute; }
+    .homevision h4:hover, .homemission h4:hover, .blooddonor h4:hover {
+      background: white;
+      color: linear-gradient(150deg, #016aa1 0%, #00d4ff 100%); } }
+
+>>>>>>> 78e5bcb... updated files again
 /*# sourceMappingURL=style.css.map */

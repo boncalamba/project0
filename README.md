@@ -1,0 +1,5 @@
+# Project 0
+
+Web Programming with Python and JavaScript
+
+This is a Bon Jun Calamba Project0 entry for Web Programming with Python and JavaScript. This site includes content from the Department of Health - the Philippines regarding Coronavirus Pandemic. The Department of Health (DOH) is the principal health agency in the Philippines. It is responsible for ensuring access to basic public health services to all Filipinos through the provision of quality health care and regulation of providers of health goods and services. Content serve as my sample content only. The site includes pages such as Gallery, Contact Us, Table Data, List Data, and Home Page. The images used in the gallery are from random people who have been taken during the period of Enhance Community Quarantine in North Luzon Philippines. The page uses a bootstrap slider.

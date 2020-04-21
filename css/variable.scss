@@ -13,7 +13,11 @@ $bannercolor: linear-gradient(150deg, rgba(1,44,105,1) 27%, rgba(1,106,161,1) 63
 /* Using SASS Nesting and Inheritance */
 #home-content {
 	@extend %colpadding;
+<<<<<<< HEAD
 	.homevision, .homemission {
+=======
+	.homevision, .homemission, .blooddonor {
+>>>>>>> 78e5bcb... updated files again
 		padding:$padding;
 		margin:16px;
 		border-radius: 16px;
@@ -35,7 +39,11 @@ $bannercolor: linear-gradient(150deg, rgba(1,44,105,1) 27%, rgba(1,106,161,1) 63
 	background: linear-gradient(345deg, rgba(251,157,219,1) 0%, rgba(136,0,255,1) 100%);
 }
 
+<<<<<<< HEAD
 .homevision {
+=======
+.homevision, .blooddonor {
+>>>>>>> 78e5bcb... updated files again
 	background: rgb(63,94,251);
 	background: linear-gradient(150deg, rgba(63,94,251,1) 0%, rgba(178,90,255,1) 100%);
 }
@@ -61,6 +69,23 @@ p {
 	color:#f5deb3;
 }
 
+<<<<<<< HEAD
+=======
+#home-lists > ul {
+	list-style-type: square;
+	color: white;
+}
+
+#home-contact{
+	color:white;
+}
+#home-contact button{
+	margin-top:24px;
+	color:white;
+	border:2px solid white;
+}
+
+>>>>>>> 78e5bcb... updated files again
 section a {
     color: #343a40 !important;
 }
@@ -74,6 +99,10 @@ section a {
 }
 table {
 	background-color:$colorwhite;
+<<<<<<< HEAD
+=======
+	margin:auto;
+>>>>>>> 78e5bcb... updated files again
 	th {
 		background: $bannercolor;
 		color:$colorwhite;
@@ -82,7 +111,10 @@ table {
 		color:#00000;
 	}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 78e5bcb... updated files again
 .nav-pills .nav-link {	
     border-radius: 0.10rem;
     margin: 8px 0px;
@@ -97,3 +129,32 @@ footer.container {
     padding: 0px;
 }
 
+<<<<<<< HEAD
+=======
+/* Using SASS Nesting and @media query */
+@media screen and (max-width: 900px) {
+	.homevision, .homemission, .blooddonor {	
+		border: 5px solid white;
+		p:hover{
+		   background: blue;
+		   color: yellow;
+		}		
+	}
+}
+@media screen and (max-width: 600px) {
+	.homevision, .homemission, .blooddonor {
+	    background: black;
+	    color: #4ba2ff;
+	    border: 5px dashed white;
+
+	    h4:after{
+		   content: "\2605";
+		   position: absolute;
+		}
+		h4:hover{
+		   background: white;
+		   color: linear-gradient(150deg, rgba(1,106,161,1) 0%, rgba(0,212,255,1) 100%);
+		}
+	}
+}
+>>>>>>> 78e5bcb... updated files again
